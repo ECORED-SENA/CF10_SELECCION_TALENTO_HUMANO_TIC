@@ -23,7 +23,7 @@
     .row.justify-content-center
       .col-md-10.mb-5(data-aos="fade-down")
         figure 
-          img(src='@/assets/curso/temas/tema1/infog.svg', alt='Matriz de preselección')
+          img(src='@/assets/curso/temas/tema1/infog.svg', alt='Excenarios')
 
     .tarjeta.dg-azul.p-3.py-lg-2.mb-5(data-aos="fade-down")
       .row.justify-content-around.align-items-center
