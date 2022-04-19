@@ -3,7 +3,13 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span.text-white 7
+      h1 Evaluación del reclutamiento de personal en las organizaciones (Buenas prácticas)
+
+
+      
     
     
 
