@@ -8,12 +8,16 @@
   margin: 0 auto
 .italic  
   font-style: italic
-
+.disp-none
+  display: inherit
+  @media screen and ( max-width: 992px)
+    display: none
 
 .text-morado
   color: #7F4FC7
   font-weight: bold  
-
+.titulo-sexto.color-naranja
+  border-left-color: #FFA726
 
 .bg-intro
   background-image: url('../assets/curso/temas/intro-fondo.png') 
@@ -21,3 +25,12 @@
   background-size: cover
   @media screen and ( max-width: 992px)
     background-position: center 
+.bg-tema6
+  background-image: url('../assets/curso/temas/tema6/fondo.png')
+  background-position: center left
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and ( max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem
