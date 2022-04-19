@@ -32,6 +32,9 @@
 .dg-morado
   background: rgb(126,83,197)
   background: linear-gradient(180deg, rgba(126,83,197,1) 0%, rgba(91,20,217,1) 100%) 
+.dg-azul
+  background: rgb(17,110,185)
+  background: linear-gradient(180deg, rgba(17,110,185,1) 0%, rgba(24,148,246,1) 100%)
 
 
 .bg-intro
@@ -51,6 +54,17 @@
   @media screen and (max-width: 992px)
     background-size: cover 
     margin-inline: -1.4rem
+.bg-tema1-1
+  background-image: url('../assets/curso/temas/tema1-fondo.png')
+  background-position: top right
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (min-width: 1398px)
+    background-size: 100% 82%
+  @media screen and (max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem    
 .bg-tema6
   background-image: url('../assets/curso/temas/fondo-der.png')
   background-position: center left
@@ -67,3 +81,14 @@
   background-color: #EFD198
 .cajon.color-acento-botones
   background-color: #FFFAD8
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  font-size: 20px
+  @media screen and (max-width: 992px)
+    font-size: 18px  
+    padding-top: 20px
+    margin-bottom: 30px
+.linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #EFD198 
+.linea-tiempo-d__item__dots:after
+  border-left: 5px dotted #AFAFAF 
