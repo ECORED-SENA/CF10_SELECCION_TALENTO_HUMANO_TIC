@@ -25,7 +25,7 @@
       .col-md-11
         .titulo-sexto.color-naranja(data-aos="fade-right") 
           p.mb-0.text-small <b>Figura 4.</b> Matriz de preselección
-        figure.mb-5
+        figure.mb-5(data-aos="fade-down") 
           img(src='@/assets/curso/temas/tema6/fig-4.svg', alt='Matriz de preselección')
 
 

@@ -8,16 +8,31 @@
   margin: 0 auto
 .italic  
   font-style: italic
+.fit-content
+  width: fit-content  
 .disp-none
   display: inherit
   @media screen and ( max-width: 992px)
     display: none
+.neg--top  
+  margin-top: -2.5rem
+  @media (max-width: 992px)  
+    margin: 0      
+.neg--x  
+  margin-left: -7rem
+  margin-right: -1.5rem
+  @media (max-width: 992px)  
+    margin: 0     
 
 .text-morado
   color: #7F4FC7
   font-weight: bold  
 .titulo-sexto.color-naranja
   border-left-color: #FFA726
+.dg-morado
+  background: rgb(126,83,197)
+  background: linear-gradient(180deg, rgba(126,83,197,1) 0%, rgba(91,20,217,1) 100%) 
+
 
 .bg-intro
   background-image: url('../assets/curso/temas/intro-fondo.png') 
@@ -25,12 +40,30 @@
   background-size: cover
   @media screen and ( max-width: 992px)
     background-position: center 
+.bg-tema1
+  background-image: url('../assets/curso/temas/fondo-izq.png')
+  background-position: top right
+  background-size: 100% 90%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (min-width: 1398px)
+    background-size: 100% 82%
+  @media screen and (max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem
 .bg-tema6
-  background-image: url('../assets/curso/temas/tema6/fondo.png')
+  background-image: url('../assets/curso/temas/fondo-der.png')
   background-position: center left
   background-size: 100% 100%
   background-repeat: no-repeat
   margin-inline: -3.4rem
-  @media screen and ( max-width: 992px)
+  @media screen and (max-width: 992px)
     background-size: cover 
     margin-inline: -1.4rem
+
+
+
+.cajon.color-acento-botones:before 
+  background-color: #EFD198
+.cajon.color-acento-botones
+  background-color: #FFFAD8
