@@ -1,10 +1,9 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Gestión para la provisión de cargo',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+      'Es importante realizar buenas prácticas en el proceso de reclutamiento, es por esta razón que el área de Talento Humano dentro de sus políticas debe contemplar el envío de comunicaciones formales y presentar una documentación  clara de todos los procedimientos que realiza (solicitud de personal, hoja de vida, notas de resultados a los candidatos, etc.)',
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -24,215 +23,57 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Requisición',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Análisis o creación del perfil del cargo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Infografía Animada',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Video Motion',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Motion + Presentador',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Convocatoria',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
-          },
-        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Recepción y análisis de hojas de vida',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Evaluación de antecedentes',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Informe sobre candidatos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema7',
+        icono: 'far fa-file-alt',
+        numero: '7',
+        titulo:
+          'Evaluación del reclutamiento de personal en las organizaciones (Buenas prácticas)',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -271,139 +112,127 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Alles, Martha. (2006). Dirección Estratégica de Recursos Humanos. Buenos Aires: Granica. ',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Alles, Martha. (2016). Selección por competencias. Buenos Aires: Granica. ',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Base de datos',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Conjunto de datos pertenecientes a un mismo contexto, en este caso busca almacenar, sistemáticamente, los datos de los candidatos que participan en los procesos de selección de la organización y permite realizar consultas posteriores de las que se pueden extraer datos que permitan el cubrimiento de futuras vacantes.',
     },
     {
-      termino: '<em>Suftware</em>',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Capacidades',
+      significado: 'Conocimiento, competencias y experiencia.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Competencia',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'características de personalidad, expresadas en comportamientos, que generan un desempeño exitoso en un puesto de trabajo.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Conocimiento',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Conjunto de saberes ordenados sobre un tema en particular, materia o disciplina.',
     },
     {
-      termino: 'Moda',
+      termino: '<em>Employer Branding</em>',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Creación de marca del empleador.  Es el proceso de creación de identidad y gestión de la imagen de la empresa en su papel como proveedora de empleo.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Experiencia',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Práctica prolongada de una actividad que permite incorporar nuevos conocimientos e incrementar la eficacia de su aplicación y el desarrollo de competencias, lo que influye en la  optimización de los resultados de dicha actividad.',
     },
     {
-      termino: 'DIseño',
+      termino: '<em>Headhunting</em>',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Método de selección de personal en el que un cazatalentos, también denominado head-hunter, realiza la búsqueda directa del perfil profesional que una empresa solicita.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Identidad digital',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Expresión que determina el conjunto de información (perfiles profesionales, noticias, referencias de blogs, etc.) que se pueden encontrar en Internet sobre una persona.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'LinkedIn',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Red profesional líder a nivel mundial, es una comunidad social orientada a las empresas, negocios y el empleo. Partiendo del perfil de cada usuario, que libremente revela su experiencia laboral y sus destrezas, en un verdadero CV laboral, la web pone en contacto a millones de personas y empresas.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Macroprocesos',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Agrupan a los procesos que comparten un objetivo común, por lo que resulta fundamental definir correctamente los objetivos, asegurando su coherencia con la misión y los objetivos institucionales.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Motivación',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es aquello que impulsa a una persona a actuar de determinada manera, la motivación es uno de los factores internos de los seres humanos que requiere mayor atención.<br>Interés recurrente para el logro de un objetivo, energiza, orienta y selecciona comportamientos.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Profesiograma',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Documento donde se especifican y se acreditan las funciones que tiene un empleado en su puesto de trabajo, se plasman aptitudes y capacidades que debe tener una persona para desarrollar una tarea, también llamado perfil profesional.',
+    },
+    {
+      termino: 'Selección',
+      significado:
+        'Actividad de clasificación donde se escoge a aquellos que tengan mayor posibilidades de adaptarse al cargo ofrecido y satisfacer así las necesidades de la organización y del perfil.',
+    },
+    {
+      termino: 'Servicios de Redes Sociales ',
+      significado:
+        '(Social networking) conjunto de servicios, habitualmente basados en plataformas WEB, donde el usuario puede ponerse en contacto con otras personas, sean conocidas o no, compartiendo información y creando comunidades virtuales. ',
+    },
+    {
+      termino: 'Talento',
+      significado:
+        'Conocimiento y desarrollo de competencias que posee una persona, más allá de lo requerido por su puesto de trabajo.',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: 'Canal P. (2015). Cómo crear una oferta de empleo atractiva.',
+      tipo: 'Blog',
+      link:
+        'https://www.iebschool.com/blog/como-crear-oferta-empleo-atractiva-reclutamiento-seleccion/',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Bizneo HR Software. (2021). Cómo identificar una buena hoja de vida en 8 pasos.',
+      tipo: 'Blog',
+      link: 'https://www.bizneo.com/blog/hoja-de-vida/',
+    },
+    {
+      texto: 'Adriana M. (2019). Qué son y para qué sirven los ATS. ',
+      tipo: 'Página Web',
+      link: 'https://empresas.infoempleo.com/hrtrends/ats-reclutamiento',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Ley 1581 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. Octubre 17 de 2012. DO.No.48587',
+      tipo: 'Ley',
+      link:
+        'https://sena-globallex-info.bdigital.sena.edu.co/normativa/detalle/ley-1581-de-2012-24760/pdf',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+      texto:
+        'Centro de gestión empresarial. (2019). Como elaborar una lista de chequeo. ',
+      tipo: 'Página Web',
+      link:
+        'https://iso9001-calidad-total.com/2012/05/09/como-elaborar-listas-de-chequeo/',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      texto:
+        'González J. (2021). Primeras consideraciones al recibir una hoja de vida. ',
+      tipo: 'Artículo',
+      link:
+        'https://www-gestionhumana-com.bdigital.sena.edu.co/cuales-son-las-principales-consideraciones-al-recibir-hojas-de-vida-en-video',
     },
   ],
   creditos: {
@@ -417,9 +246,34 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable Equipo Desarrollo Curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Alexis Viloria Guerrero',
+        cargo: 'Experto temático',
+        centro: 'Centro Gestión Administrativa Regional Distrito Capital',
+      },
+      {
+        nombre: 'Vilma Perilla ',
+        cargo: 'Acompañamiento instruccional',
+        centro: 'Centro de Gestión Industrial Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Vela Rodríguez Velásquez',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Asesora Metodológica',
+        centro: 'entro de Diseño y Metrología Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sanraa Patricia Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -430,30 +284,25 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Jesús Antonio Vecino Valero',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Andrea Paola Botello De la Rosa',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: ' ',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: ' ',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
