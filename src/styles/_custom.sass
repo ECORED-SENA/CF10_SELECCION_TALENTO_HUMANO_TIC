@@ -24,16 +24,27 @@
   @media (max-width: 992px)  
     margin: 0     
 .neg--right
-  margin-right: -1.5rem
+  margin-right: -5.5rem
   @media (max-width: 992px)  
     margin: 0
 
 
+.bx-shadow
+  -webkit-box-shadow: 1px 3px 6px 4px rgba(204,204,204,1)
+  -moz-box-shadow: 1px 3px 6px 4px rgba(204,204,204,1)
+  box-shadow: 1px 3px 6px 4px rgba(204,204,204,1)
+
+
+.text-azul  
+  color: #2194E5
+  font-weight: bold
 .text-morado
   color: #7F4FC7
   font-weight: bold  
 .titulo-sexto.color-naranja
   border-left-color: #FFA726
+.bg-1
+  background: #EEF6FC  
 .dg-morado
   background: rgb(126,83,197)
   background: linear-gradient(180deg, rgba(126,83,197,1) 0%, rgba(91,20,217,1) 100%) 
@@ -86,12 +97,50 @@
     margin-inline: -1.4rem 
 .bg-tema2-1
   background-image: url('../assets/curso/temas/tema2-fondo.png')
-  background-position: top right
-  background-size: 100% 100%
+  background-position: top left
+  background-size: cover
   background-repeat: no-repeat
   margin-inline: -3.4rem
   @media screen and (min-width: 1398px)
     background-size: 100% 82%
+  @media screen and (max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem   
+.bg-tema2-2
+  background-image: url('../assets/curso/temas/fondo-izq-gris.png')
+  background-position: 100% 34%
+  background-size: 100% 80%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (min-width: 1398px)
+    background-size: 100% 70%
+    background-position: 100% 42%
+  @media screen and (max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem
+.bg-tema2-3
+  background-image: url('../assets/curso/temas/tema2-fondo.png')
+  background-position: top left
+  background-size: 100% 45%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (min-width: 1398px)
+    background-size: 100% 45%
+  @media screen and (max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem   
+.bg-tema4   
+  background-image: url('../assets/curso/temas/tema4/fondo.png')     
+  background-repeat: no-repeat
+  background-size: cover   
+.bg-tema4-2
+  background-image: url('../assets/curso/temas/fondo-der-gris.png')
+  background-position: top left
+  background-size: 100% 82%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (min-width: 1398px)
+    background-size: 100% 70%
   @media screen and (max-width: 992px)
     background-size: cover 
     margin-inline: -1.4rem         
@@ -106,7 +155,8 @@
     margin-inline: -1.4rem
 
 
-
+.cajon.color-secundario 
+  background-color: #EDE7F7
 .cajon.color-acento-botones:before 
   background-color: #EFD198
 .cajon.color-acento-botones
@@ -126,3 +176,21 @@
   background-color: #EFD198 
 .linea-tiempo-d__item__dots:after
   border-left: 5px dotted #AFAFAF 
+
+.slyder-f__btn i 
+  font-size: 3rem    
+.slyder-f .tarjeta  
+  height: 202px
+.slyder-f__main .horizontal-scroll__wrapper
+  padding: 0px 10px 0px 18px
+.slyder-f__slyde
+  padding: 10px 15px
+
+.space-4columns .col-md-3  
+  width: 22%
+  @media screen and (max-width: 992px)
+    width: 95%
+
+figcaption 
+  background-color: #F6F6F6
+  font-weight: 500    
