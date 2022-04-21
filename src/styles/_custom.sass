@@ -35,7 +35,10 @@
   -webkit-box-shadow: 1px 3px 6px 4px rgba(204,204,204,1)
   -moz-box-shadow: 1px 3px 6px 4px rgba(204,204,204,1)
   box-shadow: 1px 3px 6px 4px rgba(204,204,204,1)
-
+.bx-shadow2
+  -webkit-box-shadow: 2px 6px 18px 0px rgba(209,209,209,1)
+  -moz-box-shadow: 2px 6px 18px 0px rgba(209,209,209,1)
+  box-shadow: 2px 6px 18px 0px rgba(209,209,209,1);
 
 .text-azul  
   color: #2194E5
@@ -133,6 +136,39 @@
   @media screen and (max-width: 992px)
     background-size: cover 
     margin-inline: -1.4rem   
+.bg-tema3
+  background-image: url('../assets/curso/temas/tema3/fondo.png')
+  background-position: top left
+  background-size: 100% 45%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (min-width: 1398px)
+    background-size: 100% 45%
+  @media screen and (max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem   
+.bg-tema3-1
+  background-image: url('../assets/curso/temas/tema3/fondo2.png')
+  background-position: top left
+  background-size: 100% 80%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (min-width: 1398px)
+    background-size: 100% 85%
+  @media screen and (max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem  
+.bg-tema3-2
+  background-image: url('../assets/curso/temas/tema3/fondo3.png')
+  background-position: top left
+  background-size: 100% 45%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (min-width: 1398px)
+    background-size: 100% 45%
+  @media screen and (max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem           
 .bg-tema4   
   background-image: url('../assets/curso/temas/tema4/fondo.png')     
   background-repeat: no-repeat
@@ -235,6 +271,8 @@
   background-color: #EFD198 
 .linea-tiempo-d__item__dots:after
   border-left: 5px dotted #AFAFAF 
+.linea-tiempo-d__item .linea-tiempo-d__item__number
+  font-size: 21px  
 
 .slyder-f__btn i 
   font-size: 3rem    
@@ -257,3 +295,130 @@
 figcaption 
   background-color: #F6F6F6
   font-weight: 500    
+
+.lista-ul--color li > i:first-of-type
+  color: #7F4FC7
+  font-size: 13px
+  top: 6px  
+
+.bloque-texto-a.color-acento-contenido
+  background-color: #F6F6F6
+
+.img-infografica.color-primario .img-infografica__item__numero
+  color: #FFF  
+.img-infografica.color-primario .img-infografica__item__dot:before
+  background: rgb(17,110,185)
+  background: linear-gradient(180deg, rgba(17,110,185,1) 0%, rgba(24,148,246,1) 100%)
+.tarjeta-infog
+  background-color: #fff
+  border-top: 
+  border-bottom-left-radius: 10px
+  border-bottom-right-radius: 10px  
+.tarjeta-infog-borde
+  background: #039be5
+  background: linear-gradient(180deg,#039be5,#027fbc)
+  height: 14px
+  border-top-left-radius: 10px
+  border-top-right-radius: 10px
+.tarjeta-infog .h2
+  font-size: 30px  
+
+
+
+//////// CUSTOM FLIP CARDS
+.fondo-flip
+  background-image: url('../assets/curso/temas/tema3/fondo-tarjetas-flip.svg')
+  background-position: 100% 50%
+  background-size: 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (min-width: 1398px)
+    background-size: 100% 71%
+    background-position: 100% 50%
+  @media screen and (max-width: 992px)
+    background-image: url('../assets/curso/temas/tema3/fondo-tarjetas-mobile.svg')
+    background-size: 90% 100% 
+    background-position: 50%
+    margin-inline: -2rem
+.fondo-flip2
+  background-image: url('../assets/curso/temas/tema3/fondo-tarjetas-flip.svg')
+  background-position: 52% 100%
+  background-size: 84% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (min-width: 1398px)
+    background-size: 75% 100%
+    background-position: 50% 100%
+  @media screen and (max-width: 992px)
+    background-image: url('../assets/curso/temas/tema3/fondo-tarjetas-mobile.svg')
+    background-size: 90% 100% 
+    background-position: 50%
+    margin-inline: -2rem
+
+
+.fondo-tarjetas-flip1
+  position: absolute
+  width: 100%
+  top: 50%
+  left: 50%
+  transform: translate(-50%,-50%)
+  margin-inline: -3.4rem
+.fondo-tarjetas-flip
+  position: absolute
+  width: 90%
+  top: 50%
+  left: 50%
+  transform: translate(-50%,-50%)
+
+.flip
+  width: 330px
+  height: 285px
+  text-align: center
+  @media screen and (max-width: 992px)
+    width: 90% !important
+    height: 250px !important
+.flip-front 
+  width: 330px
+  height: 285px
+  text-align: center
+  @media screen and (max-width: 992px)
+    width: 100% !important 
+    height: 250px !important  
+    border-radius: 25px
+.flip-front img
+  height: 100%
+  object-fit: cover
+  object-position: center center
+  border-radius: 25px
+
+
+.flip-content 
+  width: 100%
+  height: 100%
+  transition: transform 0.4s
+  transform-style: preserve-3d
+  border-radius: 25px
+
+.flip:hover .flip-content 
+  transform: rotateY(180deg)
+  transition: transform 0.3s
+
+.flip-front, .flip-back 
+  position: absolute
+  height: 100%
+  width: 100%  
+  backface-visibility: hidden  
+  color: #F6F6F6
+
+.flip-back 
+  transform: rotateY(180deg) 
+  border-radius: 25px
+  background-color: #F6F6F6 
+  display: flex
+  align-content: center
+  align-items: center
+
+.tarjetas-flip-custom .col-md-4  
+  display: flex
+  justify-content: center
+  

@@ -95,6 +95,13 @@
         figure.mb-5(data-aos="fade-down") 
           img.mb-4(src='@/assets/curso/temas/tema7/tabla.svg', alt='Responsabilidades')
 
+    .row.align-items-center.mb-4.mb-lg-3(data-aos="fade")
+      .col-auto.disp-none
+        img(src='@/assets/curso/temas/deco-horiz-azul.svg' alt='Decoración')
+      .col
+        p.text-azul.mb-0 Participación en las entrevistas de los candidatos que pasan al proceso de selección.
+
+    
 
 
 
