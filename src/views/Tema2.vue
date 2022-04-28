@@ -147,7 +147,7 @@
 
           .col-md-10
             .titulo-sexto.color-naranja(data-aos="fade-right") 
-              p.mb-0.text-small <b>Figura 1.</b> Representación gráfica del perfil del cargo 
+              p.mb-0.text-small <b>Figura 2.</b> Representación gráfica del perfil del cargo 
             figure.mb-5(data-aos="fade-down") 
               img.mb-4(src='@/assets/curso/temas/tema2/fig.svg', alt='Representación gráfica del perfil del cargo ') 
               figcaption <b>Nota.</b> Tomado de Cuesta A. (2016)

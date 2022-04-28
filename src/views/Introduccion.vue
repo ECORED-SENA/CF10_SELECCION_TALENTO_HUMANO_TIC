@@ -13,9 +13,7 @@
       .col-md-4.centrar-imagen(data-aos="fade-right").px-4.mb-4.mb-md-0
         img(src='@/assets/curso/temas/intro-img.png' alt='Introducción')
       .col-md-7.py-0.py-md-3(data-aos="fade-left")
-        p.mb-0 Para poder adquirir conocimientos y habilidades en la atención de los clientes, sea de una organización dedicada a la producción o comercialización, es necesario identificar el contexto de esa organización tanto de sus aspectos externos, como de los recursos y procesos internos; en ese 
-          span.text-morado orden de ideas lo que hallará en este espacio quiere capturar su plena atención frente a los aspectos que se deben conocer de manera cada vez más concreta, según el tipo de organización que se quiera analizar o donde se pretenda prestar un servicio. 
-          | A continuación, se presenta un video que recoge la generalidad del presente componente:
+        p.mb-0 Las tecnologías de la información y las comunicaciones han impactado grandemente la economía de la sociedad del siglo XXI, es por ello que se debe tener en cuenta cómo éstas han influido en la selección del talento humano que requieren las empresas de hoy. Por tal razón, se hace necesario estudiar dicho proceso evolutivo y que tipo de herramientas tecnológicas se están usando en la actualidad. Lo invitamos a ver el siguiente video, el cual le permitirá conocer el contenido a grosso modo de este componente:
 
 
     figure.mb-5(data-aos="fade-down")

@@ -74,7 +74,7 @@
         .row.justify-content-center
           .col-md-8
             .titulo-sexto.color-naranja(data-aos="fade-right") 
-              p.mb-0.text-small <b>Figura 3.</b> Formato de autorización de manejo de información
+              p.mb-0.text-small <b>Figura 5.</b> Formato de autorización de manejo de información
             figure.mb-5(data-aos="fade-down") 
               img.mb-4(src='@/assets/curso/temas/tema5/fig.svg', alt='Formato de autorización de manejo de información')
 

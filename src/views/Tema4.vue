@@ -24,7 +24,7 @@
 
     .row.bg-tema4-2.mb-4
       .col-lg-12.px-lg-5.py-lg-3.px-4.py-0
-        .row
+        .row.align-items-center
           .col-md-8(data-aos="fade-right").mb-4.mb-md-0
             p Para ampliar la información, lo invitamos a leer el artículo 
               span.text-azul Cómo identificar una buena hoja de vida en 8 pasos, el cual se encuentra en el material complementario.

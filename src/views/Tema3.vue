@@ -62,7 +62,7 @@
       .col
         p.mb-0 Marta Alles (2006), sugiere los siguientes componentes como indispensables para un anuncio:
 
-    .row.mb-4
+    .row.align-items-center.mb-4
       .col-md-4.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema3/img3.png' alt='Marta Alles')
       .col-md-8(data-aos="fade-left")
@@ -71,7 +71,7 @@
             i.fas.fa-dot-circle
             p.mb-0 
               span.text-morado Definir la empresa: 
-              | si no está dispuesto a publicar el nombre, es aconsejable recurrir a un consultor externo. Recuerde que muchos buenos candidatos que estén empleados no responderán, sino que saben quién lo hacen. Es cierto que cuando el anuncio lo publica una consultora por lo general no se consigna el nombre de la empresa, pero el postulante en ese caso conoce el nombre del consultor y es a él a quién le escribe.
+              | si no está dispuesto a publicar el nombre, es aconsejable recurrir a un consultor externo. Recuerde que muchos buenos candidatos que estén empleados no responderán, sino que saben quién lo hace. Es cierto que cuando el anuncio lo publica una consultora por lo general no se consigna el nombre de la empresa, pero el postulante en ese caso conoce el nombre del consultor y es a él a quién le escribe.
           li.mb-3 
             i.fas.fa-dot-circle
             p.mb-0 
@@ -163,7 +163,7 @@
 
 
     .titulo-sexto.color-naranja(data-aos="fade-right") 
-      p.mb-0.text-small <b>Figura 2.</b> Partes indispensables de un anuncio
+      p.mb-0.text-small <b>Figura 3.</b> Partes indispensables de un anuncio
     figure.mb-5(data-aos="fade-down") 
       img.mb-4(src='@/assets/curso/temas/tema3/fig.svg', alt='Partes indispensables de un anuncio') 
       figcaption <b>Nota.</b> Tomado de Alles, M. (2006)

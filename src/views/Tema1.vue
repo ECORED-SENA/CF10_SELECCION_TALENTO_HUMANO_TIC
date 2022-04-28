@@ -56,6 +56,9 @@
               p.mb-0(numero="2" titulo="Fecha de recepción") Se refiere a la fecha en que se recibe y debe ser diligenciada por Talento Humano. 
               p.mb-0(numero="3" titulo="Nombre del cargo") Denominación de vacante generada. 
               p.mb-0(numero="4" titulo="Nombre de la dependencia") Área que genera la vacante.
+              p.mb-0(numero="5" titulo="Fecha de inicio y de terminación") Permite tener claridad en el tiempo en que se requiere que el candidato esté seleccionado, por lo que debe diligenciarse dicha información dependiendo del tipo de contrato.
+              p.mb-0(numero="6" titulo="Necesidad de ajuste al perfil") Solo se debe diligenciar la información adicional a la descripción del cargo y perfil actual, en el caso de que exista.     
+              p.mb-0(numero="7" titulo="Posibles empleados candidatos al cargo") Este ítem solo se debe diligenciar en el caso en que se haya decidido que se hará un reclutamiento interno o mixto.
           .col-md-5(data-aos="fade-left").px-md-5.px-3
             img(src='@/assets/curso/temas/tema1/img2.png' alt='Imagen decorativa')
 

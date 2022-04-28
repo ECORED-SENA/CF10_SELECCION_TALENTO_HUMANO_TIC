@@ -271,7 +271,7 @@ export default {
         centro: 'entro de Diseño y Metrología Regional Distrito Capital',
       },
       {
-        nombre: 'Sanraa Patricia Hoyos Sepúlveda',
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
         cargo: 'Corrección de estilo',
         centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
       },
@@ -296,13 +296,24 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Emilsen Alfonso Bautista',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

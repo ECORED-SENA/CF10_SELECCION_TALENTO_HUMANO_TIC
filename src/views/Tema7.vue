@@ -51,7 +51,7 @@
       .col-lg-12.px-lg-5.px-4.py-4
         .row.p-2.py-4.p-md-0.py-md-0
           .col-md-6(data-aos="fade-right").mb-4.mb-md-0
-            p Para complementar la información, lo invitamos a leer el artículo Cómo elaborar una lista de chequeo, el cual se encuentra en el material complementario.
+            p Para complementar la información, lo invitamos a leer el artículo <b>Cómo elaborar una lista de chequeo</b>, el cual se encuentra en el material complementario.
             .cajon.color-acento-botones.neg--right.p-4.mb-4
               p.mb-0 A partir de esta Lista de Chequeo se pueden analizar y evaluar las hojas de vida según las competencias y requisitos definidos con anterioridad para el cargo.
             .row.mb-4
@@ -99,7 +99,9 @@
       .col-auto.disp-none
         img(src='@/assets/curso/temas/deco-horiz-azul.svg' alt='Decoración')
       .col
-        p.text-azul.mb-0 Participación en las entrevistas de los candidatos que pasan al proceso de selección.
+        p.mb-0 Para complementar su aprendizaje lo invitamos a revisar el contenido 
+          span.text-azul Primeras consideraciones al recibir una hoja de vida
+          | , que se encuentra en el material complementario.
 
     
 
