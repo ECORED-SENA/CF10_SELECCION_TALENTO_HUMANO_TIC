@@ -10,7 +10,7 @@
 
     .row.bg-tema5.mb-4
       .col-lg-12.px-lg-5.py-lg-3.px-4.py-0
-        .row
+        .row.align-items-center
           .col-md-8(data-aos="fade-right").mb-4.mb-md-0
             p La revisión de los antecedentes permite identificar quiénes son los mejores candidatos para continuar a la fase de selección propiamente dicha, implica aplicación de filtros que pueden ser a través de la Internet o Intranet, como: cuestionarios on line o preguntas específicas sobre conocimiento y experiencia, consulta previa al proceso de selección, con el objetivo de descartar o incluir a los candidatos idóneos para el cargo requerido, esta verificación optimiza costos y tiempo.
             .row.mb-3

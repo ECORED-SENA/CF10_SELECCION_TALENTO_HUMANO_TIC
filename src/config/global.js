@@ -222,10 +222,10 @@ export default {
     },
     {
       texto:
-        'Centro de gestión empresarial. (2019). Como elaborar una lista de chequeo. ',
+        'NUEVAS NORMAS ISO ES UNA INICIATIVA DE ESCUELA EUROPEA DE EXCELENCIA. Cómo elaborar una lista de chequeo - La importancia de contar con un checklist para controlar el sistema de gestión de calidad en el sector industrial. ',
       tipo: 'Página Web',
       link:
-        'https://iso9001-calidad-total.com/2012/05/09/como-elaborar-listas-de-chequeo/',
+        'https://www.nueva-iso-9001-2015.com/2019/06/checklist-para-controlar-sistema-gestion-de-calidad-sector-industrial/',
     },
     {
       texto:
