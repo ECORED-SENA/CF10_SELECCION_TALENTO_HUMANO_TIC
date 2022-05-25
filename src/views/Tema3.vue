@@ -18,7 +18,7 @@
               .col-auto.disp-none
                 img(src='@/assets/curso/temas/deco-azul.svg' alt='Decoración')
               .col
-                p.text-azul Una vez sea aprobada la requisición de personal y hacer el análisis del perfil del cargo, el siguiente paso a ejecutar es el reclutamiento de los candidatos que participaran en el proceso de selección. A través de este proceso se llevarán a cabo una serie de pasos orientados a atraer los candidatos que, de acuerdo con el perfil de búsqueda, se consideren los más calificados para ocupar el cargo dentro de la organización. 
+                p.text-azul Una vez sea aprobada la requisición de personal y hacer el análisis del perfil del cargo, el siguiente paso a ejecutar es el reclutamiento de los candidatos que participarán en el proceso de selección. A través de este proceso se llevarán a cabo una serie de pasos orientados a atraer los candidatos que, de acuerdo con el perfil de búsqueda, se consideren los más calificados para ocupar el cargo dentro de la organización. 
             p El proceso de reclutamiento despliega la información a nivel interno y/o externo, que permite a la empresa, dar a conocer su necesidad u oportunidad de empleo, en el mercado laboral. Este procedimiento recibe el nombre de convocatoria, la cual, debe atraer los suficientes candidatos para analizar sus hojas de vida y suministrar los más opcionados al cliente, para cumplir con el perfil buscado, que lleve al éxito la contratación.
             p Para tener en cuenta: 
         .row.justify-content-center.mb-4(data-aos="fade-down")
@@ -71,7 +71,7 @@
             i.fas.fa-dot-circle
             p.mb-0 
               span.text-morado Definir la empresa: 
-              | si no está dispuesto a publicar el nombre, es aconsejable recurrir a un consultor externo. Recuerde que muchos buenos candidatos que estén empleados no responderán, sino que saben quién lo hace. Es cierto que cuando el anuncio lo publica una consultora por lo general no se consigna el nombre de la empresa, pero el postulante en ese caso conoce el nombre del consultor y es a él a quién le escribe.
+              | si no está dispuesto a publicar el nombre, es aconsejable recurrir a un consultor externo. Recuerde que muchos buenos candidatos que estén empleados no responderán, si no saben quién realiza la publicación. Es cierto que cuando el anuncio lo publica una consultora por lo general no se consigna el nombre de la empresa, pero el postulante en ese caso conoce el nombre del consultor y es a él a quién le escribe.
           li.mb-3 
             i.fas.fa-dot-circle
             p.mb-0 
@@ -230,7 +230,7 @@
               p.mb-0(numero="1" titulo="Antes de escribir") Los reclutadores deben tener claro qué perfil están buscando antes de escribir la oferta, por ejemplo: posición, cargo o número de vacantes.
               p.mb-0(numero="2" titulo="Título atractivo") Este debe tener palabras claves, puesto de trabajo y cargo en la empresa.
               p.mb-0(numero="3" titulo="Descripción de la oferta") En este espacio se deben tener en cuenta los siguientes elementos: en que consiste el puesto de trabajo, el perfil del candidato ideal y las condiciones laborales.
-              p.mb-0(numero="4" titulo="Hablar de la empresa") Aquí, es importante hablar de la empresa, los valores con los que está se identifica y los objetivos que pretende alcanzar, tanto a corto como a largo plazo.
+              p.mb-0(numero="4" titulo="Hablar de la empresa") Aquí, es importante hablar de la empresa, los valores con los que esta se identifica y los objetivos que pretende alcanzar, tanto a corto como a largo plazo.
               p.mb-0(numero="5" titulo="Visibilidad") Es importante tener presente que, en el siglo XXI, es vital que una empresa tenga presencia digital, por lo que es adecuado usar las redes sociales para dar a conocer la convocatoria.
               p.mb-0(numero="6" titulo="Después") Es necesario dinamizar el proceso de selección mediante una actividad o prueba.
           .col-md-5(data-aos="fade-left").px-md-5.px-3

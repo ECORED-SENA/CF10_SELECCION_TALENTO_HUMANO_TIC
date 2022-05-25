@@ -229,7 +229,7 @@ export default {
     },
     {
       texto:
-        'González J. (2021). Primeras consideraciones al recibir una hoja de vida. ',
+        'González J. (2021). ¿Cuáles son las principales consideraciones al recibir hojas de vida en video? ',
       tipo: 'Artículo',
       link:
         'https://www-gestionhumana-com.bdigital.sena.edu.co/cuales-son-las-principales-consideraciones-al-recibir-hojas-de-vida-en-video',
